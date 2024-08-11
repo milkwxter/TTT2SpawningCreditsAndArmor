@@ -29,6 +29,6 @@ if SERVER then
 	
 	hook.Add("TTTBeginRound", "SpawnCoinsAndArmorBeginRound", function()
 		spawnItemsAroundMap("credit_coin")
-		spawnItemsAroundMap("armor_plate")
+		--spawnItemsAroundMap("armor_plate") disabled for now
 	end)
 end
